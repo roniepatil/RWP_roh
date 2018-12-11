@@ -507,3 +507,19 @@ nav ul li a {
   max-height: 800px;
   width: auto;
 }
+.card img{
+  width: 100%;
+}
+.section-content{
+  padding: 5rem 0;
+}
+.card-title,
+.card-subtitle{
+  margin: 1rem;
+}
+.card{
+  padding: 2rem;
+}
+.section-content p{
+  color: #202020;
+}
