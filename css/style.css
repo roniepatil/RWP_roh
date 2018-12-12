@@ -229,7 +229,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("/images/cover.jpg") repeat scroll center center / cover;
+  background: url("/images/cover.jpg") repeat scroll 75% / cover;
   height: 100vh;
   width: 100%;
 }
@@ -523,3 +523,96 @@ nav ul li a {
 .section-content p{
   color: #202020;
 }
+/* My Tabs Area css
+============================================================================================ */
+.mytabs_area {
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+
+.tabs_inner .nav.nav-tabs {
+  display: block;
+  text-align: center;
+  border: none;
+  margin-bottom: 120px; }
+.tabs_inner .nav.nav-tabs li {
+  display: inline-block;
+  margin-right: 8px; }
+.tabs_inner .nav.nav-tabs li a {
+  margin: 0px;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0px 40px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #9ab5f5;
+  background: rgba(255, 255, 255, 0.1); }
+.tabs_inner .nav.nav-tabs li a.active {
+  background: #fff;
+  color: #222222; }
+.tabs_inner .tab-content .tab-pane .list {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 60px; }
+.tabs_inner .tab-content .tab-pane .list:before {
+  content: "";
+  height: 100%;
+  width: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 49.5%;
+  transform: translateX(-50%);
+  top: -5px;
+  box-sizing:border-box; }
+.tabs_inner .tab-content .tab-pane .list li {
+  margin-bottom: 60px;
+  position: relative; }
+.tabs_inner .tab-content .tab-pane .list li span {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: block;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 46%;
+  top: 30px;
+  transform: translateX(-50%); }
+.tabs_inner .tab-content .tab-pane .list li span:before {
+  content: '';
+  height: 7px;
+  width: 7px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 52%;
+  top: 4px;
+  transform: translateX(-50%); }
+.tabs_inner .tab-content .tab-pane .list li:last-child {
+  margin-bottom: 0px; }
+.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
+  padding-right: 100px; }
+.tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0px;
+  padding-top: 20px; }
+.tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+.tabs_inner .tab-content .tab-pane .list li .media .media-body p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0px; }
+.p_120{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.d-flex p{
+  width: 200px;
+}
+/* End My Tabs Area css
+============================================================================================ */

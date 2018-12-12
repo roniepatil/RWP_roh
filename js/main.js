@@ -98,49 +98,30 @@ $(document).ready(function() {
       responsiveClass: true,
       responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
     });
-  
 
-    $('#pagination-demo').twbsPagination({
-      totalPages: 3,
-      // the current page that show on start
-      startPage: 1,
-       
-      // maximum visible pages
-      visiblePages: 3,
-       
-      initiateStartPageClick: true,
-       
-      // template for pagination links
-      href: false,
-       
-      // variable name in href template for page number
-      hrefVariable: '{{number}}',
-       
-      // Text labels
-      first: 'First',
-      prev: 'Previous',
-      next: 'Next',
-      last: 'Last',
-       
-      // carousel-style pagination
-      loop: false,
-       
-      // callback function
-      onPageClick: function (event, page) {
-         $('.page-active').removeClass('page-active');
-        $('#page'+page).addClass('page-active');
-      },
-       
-      // pagination Classes
-      paginationClass: 'pagination',
-      nextClass: 'next',
-      prevClass: 'prev',
-      lastClass: 'last',
-      firstClass: 'first',
-      pageClass: 'page',
-      activeClass: 'active',
-      disabledClass: 'disabled'
-       
-      });
-       
+  $(".nav-tabs a.nav-link").click(function(){
+    var x = $(this).attr("href");
+    x = x.replace("#", "");
+    $(".tab-content .tab-pane").each(function(){
+      var y = $(this).attr("id");
+      if (x == y) $(this).addClass("active show");
+      else $(this).removeClass("active show");
+    });
+  });
+      
+  /*$('.nav-tabs a[href="#home"]').tab('show');*/
+    /*$('.nav-tabs a[href="#profile"]').tab('show');*/
+    /*$('.nav-tabs a[href="#profile"]').click(function(){
+      $(this).tab('show');
+    });*/
+    /*$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+      e.target // newly activated tab
+      e.relatedTarget // previous active tab
+    })*/
+    /*$('a[href="#profile"]').tab('show');
+    $('a[href="#profile"]').tab('active');*/
+  /*$('#myTab a').on(click,function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+  })*/
 });
