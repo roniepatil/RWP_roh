@@ -108,20 +108,4 @@ $(document).ready(function() {
       else $(this).removeClass("active show");
     });
   });
-      
-  /*$('.nav-tabs a[href="#home"]').tab('show');*/
-    /*$('.nav-tabs a[href="#profile"]').tab('show');*/
-    /*$('.nav-tabs a[href="#profile"]').click(function(){
-      $(this).tab('show');
-    });*/
-    /*$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-      e.target // newly activated tab
-      e.relatedTarget // previous active tab
-    })*/
-    /*$('a[href="#profile"]').tab('show');
-    $('a[href="#profile"]').tab('active');*/
-  /*$('#myTab a').on(click,function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-  })*/
 });

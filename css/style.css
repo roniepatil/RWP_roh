@@ -1,3 +1,5 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 body {
   background: #ffffff;
   color: #898989;
@@ -613,6 +615,15 @@ nav ul li a {
 }
 .d-flex p{
   width: 200px;
+}
+.card-block h4{
+  font-size:25px;
+}
+.card-block h6{
+  font-size:18px;
+}
+.card-block p{
+  font-size: 16px;
 }
 /* End My Tabs Area css
 ============================================================================================ */
