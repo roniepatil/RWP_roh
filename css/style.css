@@ -230,11 +230,11 @@ nav ul li a {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
-/*#header {
-  background: url("images/cover.jpg") repeat scroll 75% / cover;
+#header {
+  background: url("/images/cover.jpg") repeat scroll 75% / cover;
   height: 100vh;
   width: 100%;
-}*/
+}
 
 
 #header .header-content {
