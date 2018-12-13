@@ -528,9 +528,9 @@ nav ul li a {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  background-image: -moz-linear-gradient(0deg, #111111 0%, #8b8887 100%);
+  background-image: -webkit-linear-gradient(0deg, #111111 0%, #8b8887 100%);
+  background-image: -ms-linear-gradient(0deg, #111111 0%, #8b8887 100%); }
 
 .tabs_inner .nav.nav-tabs {
   display: block;
